@@ -10,7 +10,11 @@ const app = () => {
   const timeDisplay = document.querySelector('.time-display');
 // Getting length of circle outline
   const outlineLength = outline.getTotalLength();
-  console log(outlineLength)
+// Duration
+  let fakeDuraction= 600;
+
+  outline.style.strokeDasharray = outlineLength;
+  outline.style.strokeDashoffset = outlineLength;
 }
 
 

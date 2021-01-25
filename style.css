@@ -35,11 +35,11 @@
   pointer-events: none;
 }
 
-.time-display{
-  position: absoloute;
-  bottom: 10%;
+.time-display {
   color: white;
-  font-size: 50px; 
+  position: absolute;
+  font-size: 50px;
+  bottom: 10%;
 }
 
 video {
